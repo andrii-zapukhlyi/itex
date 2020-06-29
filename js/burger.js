@@ -20,6 +20,22 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+	$(".nav__soc-networks__link").click(function(){
+		$(".header__nav").removeClass("active");
+		$(".header__burger").removeClass("active");
+	});
+});
+
+
+$(document).ready(function(){
+	$(".lang__link").click(function(){
+		$(".header__nav").removeClass("active");
+		$(".header__burger").removeClass("active");
+	});
+});
+
+
 $(window).scroll(function() {    
 	$(".header__nav").removeClass("active");
 	$(".header__burger").removeClass("active");
