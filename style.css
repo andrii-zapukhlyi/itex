@@ -88,11 +88,13 @@ header{
 	text-decoration: none;
 	font-size: 19px;
 	font-weight: 600;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .logo__link{
 	color: #000;
 	text-decoration: none;
 	font-size: 18px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .nav__link:hover{
 	color: white;
@@ -104,6 +106,7 @@ header{
 	font-size: 20px;
 	padding: 10px 15px;
 	border-radius: 5px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .nav__soc-networks__link:first-child{
 	padding: 10px 20px;
@@ -142,6 +145,7 @@ header{
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .lang__link:hover{
 	color: white;
@@ -173,6 +177,7 @@ header{
 		margin-right: 40px;
 		cursor: pointer;
 		z-index: 2;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	}
 	.header__burger span{
 		position: absolute;
@@ -323,6 +328,9 @@ header{
 }
 .home__title{
 	margin: 200px 80px 340px 80px;
+}
+.scrolldown__link{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .scrolldown{
 	margin-bottom: 200px;
@@ -493,6 +501,7 @@ header{
 	position: relative;
 	-webkit-transition: 0.3s linear;
 	transition: 0.3s linear;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .partners__link:before {
 	content: "";
