@@ -306,18 +306,6 @@ header{
 	margin: 140px 0 0px 0;
 	text-align: center;
 }
-.home__title{
-	margin: 200px 80px 340px 80px;
-}
-.scrolldown{
-	margin-bottom: 200px;
-	width: 40px;
-	height: 40px;
-	-webkit-transform: translateY(-80px) translateX(-50%)
-	rotate(45deg);
-	transform: translateY(-80px) translateX(-50%)
-	rotate(45deg);
-}
 .home__content{
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -332,6 +320,19 @@ header{
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+}
+.home__title{
+	margin: 200px 80px 340px 80px;
+}
+.scrolldown{
+	margin-bottom: 200px;
+	margin-left: 37px;
+	width: 40px;
+	height: 40px;
+	-webkit-transform: translateY(-80px) translateX(-50%)
+	rotate(45deg);
+	transform: translateY(-80px) translateX(-50%)
+	rotate(45deg);
 }
 .scrolldown span{
 	position: absolute;
@@ -376,6 +377,8 @@ header{
 	25%{top:0;left: 0; opacity: 1;}
 	50%,100%{top:5px;left: 5px; opacity: 0;}
 }
+
+
 /* about */
 
 
