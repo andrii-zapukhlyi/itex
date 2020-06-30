@@ -226,6 +226,7 @@ header{
 	.nav__links{
 		margin-right: 0;
 		margin-left: 0;
+		margin-bottom: 10px;
 	}
 	.header__nav{
 		background: #cccccc;
