@@ -812,6 +812,9 @@ footer{
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
 }
+.footer__logo{
+	height: 90px;
+}
 .footer__contact{
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -820,18 +823,14 @@ footer{
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
 }
-.footer__contact__desc{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	margin-top: 20px;
-}
-.footer__contact__title,
 .footer__contact__city,
 .footer__contact__phone,
 .footer__contact__email{
-	margin: 0 15px;
+	margin: 3px 15px;
 }
 .footer__contact__email{
 	margin-left: 30px;
