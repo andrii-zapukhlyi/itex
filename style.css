@@ -394,6 +394,14 @@ header{
 .about{
 	margin-left: 20px;
 }
+.about__subtitle{
+	margin-top: 30px;
+	line-height: 24px;
+}
+.about__subtitle b{
+	text-decoration: underline;
+	color: black;
+}
 
 
 /* Projects */
