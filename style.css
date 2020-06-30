@@ -815,6 +815,9 @@ footer{
 .footer__logo{
 	height: 90px;
 }
+.footer__copyright{
+	margin-top: 44px;
+}
 .footer__contact{
 	display: -webkit-box;
 	display: -ms-flexbox;
