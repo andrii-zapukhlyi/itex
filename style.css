@@ -853,9 +853,13 @@ footer{
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
+		height: 350px;
 	}
 	.footer__contact{
 		margin-bottom: 20px;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
 	}
 	.footer__contact__title{
 		display: -webkit-box;
