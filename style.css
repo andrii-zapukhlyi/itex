@@ -328,13 +328,13 @@ header{
 	align-items: center;
 }
 .home__title{
-	margin: 200px 80px 340px 80px;
+	margin: 200px 80px 240px 80px;
 }
 .scrolldown__link{
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .scrolldown{
-	margin-bottom: 200px;
+	margin-bottom: 300px;
 	margin-left: 37px;
 	width: 40px;
 	height: 40px;
