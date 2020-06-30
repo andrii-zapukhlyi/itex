@@ -397,7 +397,9 @@ header{
 
 /* Projects */
 
-
+.projects__title{
+	margin-left: 8px;
+}
 .projects__list{
     margin: 20px 0 0;
     padding:0;
@@ -503,7 +505,6 @@ header{
 	background: linear-gradient(135deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 18%, rgba(219,219,219,1) 58%, rgba(254,254,254,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
 }
-
 
 /* Partners */
 
