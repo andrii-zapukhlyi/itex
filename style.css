@@ -655,6 +655,13 @@ header{
 	height: 185px;
 	margin: 30px;
 }
+@media (min-width: 494px){
+	.service__brand{
+	min-width: 285px;
+	min-height: 185px;
+	}
+}
+
 
 /* gallery */
 
