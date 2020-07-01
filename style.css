@@ -841,8 +841,23 @@ label, a{ /*при наведении на стрелки или переклю�
 /* contacts */
 
 
-.contacts{
-	margin-left: 20px;
+.contacts__title{
+	margin-left: 40px;
+}
+.contacts__icon__phone{
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.contacts__icon__email{
+	margin-right: 10px;
+}
+.contacts__list{
+	list-style: none;
+	margin-bottom: 30px;
+}
+.contacts__item{
+	margin-top: 15px;
 }
 
 
