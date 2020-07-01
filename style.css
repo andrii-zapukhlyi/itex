@@ -1,6 +1,4 @@
-
-
-/* Сетка */
+/* Border-box */
 
 
 *,
@@ -12,7 +10,7 @@
 }
 
 
-/* fonts */
+/* Fonts */
 
 
 h1,
@@ -33,6 +31,10 @@ h3{
 	font-size: 25px;
 }
 
+
+/* Background */
+
+
 body{
 	background-image: url("img/905606.jpg");
 	background-attachment: fixed;
@@ -41,7 +43,8 @@ body{
 	background-size: cover; 
 }
 
-/* header */
+
+/* Header */
 
 
 header{
@@ -295,7 +298,6 @@ header{
 .content:first-child{
 	margin-top: 140px;
 }
-
 .about__title,
 .projects__title,
 .service__title,
@@ -306,7 +308,8 @@ header{
 	text-decoration: underline;
 }
 
-/* home */
+
+/* Home */
 
 
 .home{
@@ -398,7 +401,7 @@ header{
 }
 
 
-/* about */
+/* About */
 
 
 .about{
@@ -414,16 +417,10 @@ header{
 	margin-top: 30px;
 	line-height: 24px;
 }
-.about__link{
-	text-decoration: underline;
-	color: black;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.about__link:hover{
-	color: #fff;
-}
+
 
 /* Projects */
+
 
 .projects__title{
 	margin-left: 8px;
@@ -500,6 +497,7 @@ header{
 	height: 600px;
 }
 
+
 /* Service */
 
 
@@ -533,6 +531,7 @@ header{
 	background: linear-gradient(135deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 18%, rgba(219,219,219,1) 58%, rgba(254,254,254,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
 }
+
 
 /* Partners */
 
@@ -667,19 +666,19 @@ header{
 }
 @media (min-width: 494px){
 	.service__brand{
-	min-width: 285px;
-	min-height: 185px;
+		min-width: 285px;
+		min-height: 185px;
 	}
 }
 
 
-/* gallery */
+/* Gallery */
 
 
 .gallery__title{
 	margin-left: 20px;
 }
-/* slider */
+/* Slider */
 #slider { /*положение слайдера*/
 	position: relative;
 	text-align: center;
@@ -838,6 +837,8 @@ label, a{ /*при наведении на стрелки или переклю�
 		padding: 20px 15px;
 	}
 }
+
+
 /* contacts */
 
 
@@ -861,7 +862,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 
-/* footer */
+/* Footer */
 
 
 footer{
