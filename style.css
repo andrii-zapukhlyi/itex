@@ -296,6 +296,16 @@ header{
 	margin-top: 140px;
 }
 
+.about__title,
+.projects__title,
+.service__title,
+.partners__title,
+.service__brands__title,
+.gallery__title,
+.contacts__title{
+	text-decoration: underline;
+}
+
 /* home */
 
 
