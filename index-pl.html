@@ -160,7 +160,7 @@
 				<p class="projects__email">stryj.lissad@gmail.com</p>
 			</div></a></li>
 			<li><a href="https://www.google.com/maps/place/Svit+Instrumentiv.+Dim-Sad/@48.9049899,24.717069,17z/data=!4m12!1m6!3m5!1s0x0:0x14b5cab316b374a0!2sSvit+Instrumentiv.+Dim-Sad!8m2!3d48.9049899!4d24.7192577!3m4!1s0x0:0x14b5cab316b374a0!8m2!3d48.9049899!4d24.7192577" class="projects__link" target="_blank"><div class="projects">
-				<h3 class="projects__name">Дім-Сад. Івано-Франківськ</h3>
+				<h3 class="projects__name">Дім-Сад Dnipro-M. Івано-Франківськ</h3>
 				<p class="projects__adress">Івано-Франківськ обл., м.Івано-Франківськ, вул. Ребета 8а</p>
 				<p class="projects__phone">+380 66 075 7222</p>
 				<p class="projects__email">dimsadrebeta@gmail.com</p>
@@ -317,41 +317,29 @@
 <section id="Gallery" class="gallery">
 	<div class="content">
 		<h3 class="gallery__title">Галерея</h3>
-		<div class="all">
-			<input checked type="radio" name="respond" id="desktop">
-			<article id="slider">
-				<input checked type="radio" name="slider" id="switch1">
-				<input type="radio" name="slider" id="switch2">
-				<input type="radio" name="slider" id="switch3">
-				<input type="radio" name="slider" id="switch4">
-				<input type="radio" name="slider" id="switch5">
-				<div id="slides">
-					<div id="overflow">
-						<div class="image">
-							<article><img src="img/slider/1.webp" alt="slider-nav"></article>
-							<article><img src="img/slider/2.webp" alt="slider-nav"></article>
-							<article><img src="img/slider/3.webp" alt="slider-nav"></article>
-							<article><img src="img/slider/4.webp" alt="slider-nav"></article>
-							<article><img src="img/slider/5.webp" alt="slider-nav"></article>
-						</div>
-					</div>
-				</div>
-				<div id="controls">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-					<label for="switch4"></label>
-					<label for="switch5"></label>
-				</div>
-				<div id="active">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-					<label for="switch4"></label>
-					<label for="switch5"></label>
-				</div>
-			</article>
-		</div>
+		<div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__items">
+        <div class="slider__item">
+          <img class="img-fluid" src="img/slider/1.webp" alt="slide1">
+        </div>
+        <div class="slider__item">
+          <img class="img-fluid" src="img/slider/2.webp" alt="slide2">
+        </div>
+        <div class="slider__item">
+          <img class="img-fluid" src="img/slider/3.webp" alt="slide3">
+        </div>
+        <div class="slider__item">
+          <img class="img-fluid" src="img/slider/4.webp" alt="slide4">
+        </div>
+        <div class="slider__item">
+          <img class="img-fluid" src="img/slider/5.webp" alt="slide5">
+        </div>
+      </div>
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button"></a>
+    <a class="slider__control slider__control_next" href="#" role="button"></a>
+  </div>
 	</div>
 </section>
 
@@ -364,15 +352,19 @@
 		<h3 class="contacts__title">Контакти</h3>
 		<ul class="contacts__list">
 			<li class="contacts__item"><h4>Телефони:</h4></li>
-			<li class="contacts__item"><img class="contacts__icon__phone" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(0342) 74 40 45</li>
-			<li class="contacts__item"><img class="contacts__icon__phone" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(066) 07 04 261</li>
-			<li class="contacts__item"><img class="contacts__icon__phone" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(066) 878 31 75</li>
-			<li class="contacts__item"><img class="contacts__icon__phone" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(068) 484 24 15</li>
-			<li class="contacts__item"><img class="contacts__icon__phone" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(096) 07 04 261</li>
+			<li class="contacts__item"><img class="contacts__icon" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(0342) 74 40 45</li>
+			<li class="contacts__item"><img class="contacts__icon" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(066) 07 04 261</li>
+			<li class="contacts__item"><img class="contacts__icon" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(066) 878 31 75</li>
+			<li class="contacts__item"><img class="contacts__icon" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(068) 484 24 15</li>
+			<li class="contacts__item"><img class="contacts__icon" src="https://img.icons8.com/android/48/000000/phone.png" alt="Phone:"/>(096) 07 04 261</li>
 			<li class="contacts__item"><h4>E-mail:</h4></li>
-			<li class="contacts__item"><i class="contacts__icon__email fas fa-envelope"></i>info@itech.if.ua</li>
+			<li class="contacts__item"><i class="contacts__icon fas fa-envelope"></i><a href="mailto:info@itech.if.ua?subject=Співпраця&body=Доброго%20дня!" class="contacts__link" target="_blank">info@itech.if.ua</a></li>
 		  <li class="contacts__item"><h4>Адрес:</h4></li>
-		  <li class="contacts__item"><img class="contacts__icon__map" src="https://img.icons8.com/ios-filled/26/000000/marker.png"/></i>м.Івано-Франківськ, вул. Хмельницького 71а</li>
+		  <li class="contacts__item"><a href="https://www.google.com/maps/place/Mahazyn+Dim-Sad.+Svit+Instrumentiv/@48.9412405,24.7308917,18.5z/data=!4m5!3m4!1s0x0:0x6e4f6940bd1da585!8m2!3d48.9412907!4d24.7303607" class="contacts__link" target="_blank"><img class="contacts__icon" src="https://img.icons8.com/ios-filled/26/000000/marker.png"/></i>м.Івано-Франківськ, вул. Хмельницького 71а</a></li>
+		  <li class="contacts__item"><h4>Корисні посилання:</h4></li>
+			<li class="contacts__item"><a href="https://dim-sad.com.ua/" class="contacts__link" target="_blank"><img class="contacts__icon" src="https://img.icons8.com/ios-glyphs/30/000000/internet.png"/>Internet-shop Dim-Sad</a></li>
+			<li class="contacts__item"><a href="http://art-mas.com.ua/index.php?route=common/home" class="contacts__link" target="_blank"><img class="contacts__icon" src="https://img.icons8.com/ios-glyphs/30/000000/internet.png"/>Art-Master</a></li>
+			<li class="contacts__item"><a href="https://texas-garden.com.ua/" class="contacts__link" target="_blank"><img class="contacts__icon" src="https://img.icons8.com/ios-glyphs/30/000000/internet.png"/>Texas</a></li>
 		</ul>
 	</div>
 </section>
@@ -389,11 +381,11 @@
 		<p class="copyright">&copy2013-2020 ТОВ "Компанія іТех"</p>
 	</div>
 	<div class="footer__contact">
-		<p class="footer__contact__phone">+380 66 666 6666</p>
+		<p class="footer__contact__phone">(0342) 74 40 45</p>
 		<p class="footer__contact__city">м. Івано-Франківськ</p>
 		<p class="footer__contact__email">info@itech.if.ua</p>
 	</div>
 </footer>
-
+<script src="js/slider.js"></script>
 </body>
 </html>
