@@ -36,7 +36,7 @@ h3{
 
 
 body{
-	background-image: url("img/905606.jpg");
+	background-image: url("img/905606.webp");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -642,11 +642,15 @@ header{
 	background: #fff;
 }
 .service__brand:hover{
-	-webkit-transition: 0.7s;
-	transition: 0.7s;
+	-webkit-transition: all 0.7s;
+	transition: all 0.7s;
 	border: 1px solid #555;
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+.service__brand:not(:hover){
+	-webkit-transition: all 0.7s;
+	transition: all 0.7s;
 }
 .service__link{
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -721,7 +725,7 @@ article img{ /*размер изображений слайдера*/
 #switch3:checked ~ #controls label:nth-child(2),
 #switch4:checked ~ #controls label:nth-child(3),
 #switch5:checked ~ #controls label:nth-child(4){
-	background: url('img/slider/prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background: url('img/slider/prev.webp') no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
 	margin: 0 0 0 -84px; /*сдвиг влево*/
 	display: block;
@@ -735,7 +739,7 @@ article img{ /*размер изображений слайдера*/
 #switch3:checked ~ #controls label:nth-child(4),
 #switch4:checked ~ #controls label:nth-child(5),
 #switch5:checked ~ #controls label:nth-child(1){
-	background: url('img/slider/next.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background: url('img/slider/next.webp') no-repeat; /*заливка фона картинкой без повторений*/
 	float: right;
 	margin: 0 -84px 0 0; /*сдвиг вправо*/
 	display: block;
@@ -853,6 +857,11 @@ label, a{ /*при наведении на стрелки или переклю�
 .contacts__icon__email{
 	margin-right: 10px;
 }
+.contacts__icon__map{
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+}
 .contacts__list{
 	list-style: none;
 	margin-bottom: 30px;
@@ -923,8 +932,10 @@ footer{
 		justify-content: center;
 		height: 350px;
 	}
+	.footer__logotype{
+		margin-left: 20px;
+	}
 	.footer__contact{
-		margin-bottom: 20px;
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
@@ -964,5 +975,6 @@ footer{
 	}
 	.footer__copyright{
 		margin: 20px 0 ;
+	  margin-left: 20px;
 	}
 }
