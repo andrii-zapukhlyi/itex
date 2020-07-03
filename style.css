@@ -1246,6 +1246,9 @@ footer{
 	.content{
 		text-align: center;
 	}
+	.contacts__item:nth-child(-n+6):not(:first-child){
+		text-align: left;
+	}
 	.about__title,
 	.projects__title,
 	.service__title,
