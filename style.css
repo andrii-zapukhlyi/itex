@@ -507,10 +507,10 @@ header{
 @media (max-width: 387px){
 	.projects .content{
 		padding: 17px;
-		padding-left: 3px;
+		padding-left: 13px;
 	}
-	.projects__title{
-		margin-left: 15px;
+	.projects__list li:nth-child(9){
+		padding-left: 0;
 	}
 }
 
@@ -549,10 +549,10 @@ header{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
 }
 @media (max-width: 853px){
- .service__serv{
- 	-ms-flex-preferred-size: 100%;
- 	flex-basis: 100%;
- }
+	.service__serv{
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+	}
 }
 
 
@@ -785,6 +785,7 @@ header{
 .partners__list{
 	list-style: none;
 	margin: 0;
+	text-align: left;
 }
 .partners{
 	margin: 10px 0;
@@ -1129,8 +1130,8 @@ header{
 	margin-top: 15px;
 }
 @media (max-width: 767px){
-	.contacts .content{
-		padding-left: 3px;
+	.contacts__list{
+		padding-left: 0px;
 	}
 }
 
@@ -1239,5 +1240,20 @@ footer{
 	}
 	.footer__copyright{
 		margin: 20px 0 ;
+	}
+}
+@media (max-width: 767px){
+	.content{
+		text-align: center;
+	}
+	.about__title,
+	.projects__title,
+	.service__title,
+	.service__subtitle,
+	.partners__title,
+	.service__brands__title,
+	.gallery__title,
+	.contacts__title{
+		margin-left: 0;
 	}
 }
