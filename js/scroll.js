@@ -35,3 +35,14 @@ $(document).ready(function() {
 				e.preventDefault();
 			});
 		});
+
+
+var windowWidth = $(window).width();
+
+$(document).ready(function() {
+	if (windowWidth<768){
+		$('.nav__link__Partners').attr('href', '#Partners-m');
+	} else{
+		$('.nav__link__Partners').attr('href', '#Partners');
+	}
+});
