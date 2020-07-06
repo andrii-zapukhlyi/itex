@@ -1056,18 +1056,18 @@ header{
 	}
 }
 @media (max-width: 767px){
-	.partners-mobile{
+	.partners-m{
 		display: block;
 	}
-	.partners-laptop{
+	.partners-l{
 		display: none;
 	}
 }
 @media (min-width: 768px){
-	.partners-mobile{
+	.partners-m{
 		display: none;
 	}
-	.partners-laptop{
+	.partners-l{
 		display: block;
 	}
 }
