@@ -532,7 +532,7 @@ header{
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .scrolldown{
-	margin-bottom: 130px;
+	margin-bottom: 140px;
 	margin-left: 37px;
 	width: 40px;
 	height: 40px;
@@ -735,6 +735,7 @@ header{
 	}
 	.projects__list-2{
 		counter-reset: list 6;
+		margin: 20px 0 0 0;
 	}
 	.projects__list li:before{
 		counter-increment: li;
