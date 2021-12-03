@@ -1115,14 +1115,32 @@ header{
 
 /* Brands */
 
-
+.service__brands{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .service__brands__title{
 	margin: 30px 0px 30px 0px;
+}
+.service__brands__content{
+	width: 100%;
+	height: 500px;
+	overflow-y: scroll;
 }
 .service__brand__row-1,
 .service__brand__row-2,
 .service__brand__row-3,
-.service__brand__row-4{
+.service__brand__row-4,
+.service__brand__row-5,
+.service__brand__row-6,
+.service__brand__row-7,
+.service__brand__row-8,
+.service__brand__row-9,
+.service__brand__row-10,
+.service__brand__row-11,
+.service__brand__row-12{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1144,20 +1162,22 @@ header{
 	-ms-flex-align: center;
 	align-items: center;
 	border-radius: 5px;
-	width: 285px;
-	height: 185px;
 	border: 1px solid #ececec;
-	margin: 30px;
+	width: 150px;
+	height: 120px;
 	background: #fff;
 }
+.brand__img{
+	max-height: 110px;
+}
 .service__brand:hover{
-	-webkit-transition: all 0.7s;
-	-o-transition: all 0.7s;
-	transition: all 0.7s;
+	-webkit-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
 	border: 1px solid #555;
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	    transform: scale(1.1);
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	    transform: scale(1.2);
 }
 .service__brand:not(:hover){
 	-webkit-transition: all 0.7s;
@@ -1176,15 +1196,8 @@ header{
 	-ms-flex-align: center;
 	align-items: center;
 	border-radius: 5px;
-	width: 285px;
-	height: 185px;
-	margin: 30px;
-}
-@media (min-width: 494px){
-	.service__brand{
-		min-width: 285px;
-		min-height: 185px;
-	}
+	margin-bottom: 45px;
+	margin: 15px;
 }
 @media (max-width: 359px){
 	.brands .content{
